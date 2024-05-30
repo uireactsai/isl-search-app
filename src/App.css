@@ -1,0 +1,39 @@
+
+.App {
+  text-align: center;
+  
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  transition: opacity 0.5s ease-in-out;
+}
+button{
+  color: cadetblue;
+}
+
+.sign-card:hover img{
+  opacity:1;
+}
+h2 {
+  color: #4c956c;
+}
+.sign-card{
+  flex: 0 0 calc(30% - 20px);
+  border: 1px solid #d68c45;
+  border-radius: 8px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.sign-results{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+
